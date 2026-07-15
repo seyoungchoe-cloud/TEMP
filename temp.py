@@ -310,7 +310,6 @@ def get_experiments():
     conn.close()
     return rows
 
-# ---------- ADD FUNCTION (Add New Experiment to the table) ---------- #sana
 # ---------- ADD FUNCTION (Add New Experiment to the table) ---------- #Sana
 def add_experiment(date, titrant, standard, t1, t2, t3, avg, ph, observation):
     conn = get_connection_temp()
