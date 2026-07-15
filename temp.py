@@ -311,6 +311,7 @@ def get_experiments():
     return rows
 
 # ---------- ADD FUNCTION (Add New Experiment to the table) ---------- #Sana
+# ---------- ADD FUNCTION (Add New Experiment to the table) ---------- #sana
 def add_experiment(date, titrant, standard, t1, t2, t3, avg, ph, observation):
     conn = get_connection_temp()
     cur = conn.cursor()
